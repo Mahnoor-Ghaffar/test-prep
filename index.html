@@ -1,0 +1,399 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Json.objects</h1>
+    <p>
+        JSON stands for Javascript Object Notation. <br>
+
+JSON is a text-based data format that is used to store and transfer data. <br><br>
+
+JSON syntax <br>
+
+{ <br>
+
+ "name": "Vipin", <br>
+
+ "age": 21, <br>
+
+ "gender": "male", <br>
+} <br>
+    </p>
+
+<h2>Json Data</h2>
+<p>
+    JSON data consists of key/value pairs similar to JavaScript object properties. <br>
+The key and values are written in double quotes separated by a :. <br>
+Example : <br>
+ JSON data <br>
+
+    "name": "Vipin" <br>
+JSON data requires double quotes for the key.
+</p>
+<h2>Jason Object</h2>
+<p>JSON Object <br>
+    The JSON object is written inside curly braces { }. <br>
+    
+    JSON objects can contain multiple key/value pairs. <br>
+    
+    Example : <br>
+    
+      JSON object <br>
+    
+     { "name": "Vipin", "age": 21 } <br>
+    </p>
+<h2>JASON Array</h2>
+<p>
+    JSON array is written inside square brackets [ ]. <br>
+
+Example : <br>
+
+  JSON array <br>
+  [ "Vipin", "Ankit", "Raj"]
+</p>
+<h2> Use Of JASON </h2>
+<p>JSON is the most commonly used format for transmitting data (data interchange) from a server to a client and vice-versa.
+    <br>JSON data are very easy to parse and use. <br>
+    JSON is language independent(We can create and use JSON in other programming languages too).</p>
+<h2>Accessing JSON Data</h2>
+<p>
+    We can access JSON data using the dot notation. <br>
+    <br>
+    console.log(detail. name);
+    <br>
+    We can also use square bracket syntax [] to access JSON data.
+    <br>console.log(detail["age"]);
+</p>
+    <h2>Is JASON similar to JavaScript object?</h2>
+<p>
+    The Answer is No. <br>
+    JavaScript objects can contain functions but JSON not. <br>
+    JavaScript objects can only be used in JavaScript but JSON can be created and used by other programming languages.</p>
+
+
+
+
+
+
+
+
+
+<h1>syntax error</h1>
+<p>
+    a syntax error in TypeScript means that there's a mistake in how you've written your code. It's like a grammatical error in a language — the TypeScript compiler can't understand what you're trying to say because the code doesn't follow the rules it expects. <br>
+
+    For example: <br>
+    
+    If you misspell a keyword (like consol instead of console). <br>
+    Forget to close parentheses or brackets. <br>
+    Use a reserved word incorrectly, like trying to name a variable if which is reserved for the if statement. <br>
+    When you make these kinds of mistakes, TypeScript will show you an error message that points out where the issue is in your code. Fixing syntax errors involves finding and correcting these mistakes so that your code can be understood and executed properly.
+</p>
+
+
+
+
+
+
+<h1>Assingability error</h1>
+<p>In TypeScript, an assignability error occurs when you try to assign a value to a variable or property that is not compatible with the type expected by that variable or property. Simply put, it means that the type of the value you are trying to assign does not match the type that TypeScript expects.</p>
+
+
+
+
+
+<h1>Strong typing</h1>
+<p>Strong typing in TypeScript means that once a variable or a property is declared to be of a certain type, it must always hold values of that type. The compiler enforces these type rules, helping to catch errors at compile time rather than at runtime. <br>
+
+    In simpler terms, it means that TypeScript checks and ensures that values match the expected types throughout your code.</p>
+
+
+
+<h1>Let , const and var</h1>
+<p>
+    In TypeScript, let, const, and var are used to declare variables, each with different rules and behaviors. <br>
+    let and const are block-scoped; let can be reassigned, const cannot. <br>
+    var is function-scoped and can be reassigned and redeclared. </p>
+    <h2>Let</h2>
+   <p> Used to declare a variable that can be reassigned later. <br>
+The variable is block-scoped, meaning it only exists within the block (e.g., within curly braces {}) where it's defined. <br>
+You cannot declare same name variable with let.
+</p>
+<h2>Const</h2>
+<p>
+    Used to declare a variable that cannot be reassigned after its initial assignment.
+ <br>The variable is block-scoped, similar to let.
+</p>
+<h2>Var</h2>
+<p>Used to declare a variable that can be reassigned. <br>
+    The variable is function-scoped, meaning it exists within the function where it's defined or globally if not inside a function. <br>
+    Unlike let and const, var variables can be redeclared and do not respect block scope.</h2>
+
+
+
+
+<h1>Modules</h1>
+<p>Modules in TypeScript allow you to organize your code into separate files and reuse code across different parts of your application. <br>They help in keeping your code manageable and maintainable.
+<br> Modules: Files or collections of code that can be reused. <br>
+Export: Making code available to other modules. <br>
+Import: Using code from another module.
+</p>
+<h2>exporting</h2>
+<p>You can export functions, classes, or variables from one module so they can be used in other modules.</p>
+<h2>Importing</h2>
+<p>You can import the exported members of a module into another module.</p>
+
+
+
+<h1>ECMAScript</h1>
+<p>ECMAScript (often abbreviated as ES) is the standard that defines the core features and syntax of JavaScript. TypeScript is a superset of JavaScript, meaning it includes all of JavaScript and adds extra features.</p>
+<h2>ECMASript</h2>
+<p>Defines the rules and features of JavaScript.</p>
+<h2>TypeScript</h2>
+<p>TypeScript follows the ECMAScript standard, which means any valid JavaScript code (compliant with ECMAScript) is also valid TypeScript code. <br>
+    Extends JavaScript (ECMAScript) with additional features like type annotations.
+</p>
+
+
+
+
+<h1>Inquirer</h1>
+<p>In TypeScript, Inquirer is a library used to create interactive command-line interfaces. It allows you to prompt users with questions and get their input. <br>
+    Inquirer: A library for creating command-line prompts. <br>
+    Interactive: Helps gather user input by asking questions.
+</p>
+
+
+
+<h1>Chalk</h1>
+<p>Chalk is a library used to style and colorize text in the terminal. It helps make your command-line output more readable and visually appealing by adding colors and styles
+    <br> Chalk: A library for adding colors and styles to terminal text. <br>
+    Stylize: Makes your command-line output more attractive and easier to read.
+</p>
+
+
+
+
+<h1>Union Types</h1>
+<p>In TypeScript, a union type lets a variable hold more than one type of value. It means the variable can be one type or another type.</p>
+
+
+
+
+
+<h1>Literal Type</h1>
+<p>Literal types are particularly useful when you want to restrict variables to a finite set of known values, making your code more explicit and easier to reason about.</p>
+
+
+
+
+<h1>Objects</h1>
+<p>In TypeScript, an object is a collection of key-value pairs, where each key is a string (or symbol) and each value can be any type, such as a number, string, or even another object.</p>
+
+
+
+
+<h1>Object Alias</h1>
+<p>In TypeScript, an object alias is a custom name you give to a particular shape or structure of an object. This lets you define and reuse complex object types using a single, easy-to-remember name.</p>
+
+
+
+
+<h1>Structural Typing</h1>
+<p>In TypeScript, structural typing means that the type system checks if objects are compatible based on their structure or shape, not just their declared type. If two objects have the same properties with the same types, TypeScript considers them compatible.</p>
+
+
+
+
+
+<h1>Nested Objects</h1>
+<p>In TypeScript, nested objects are objects inside other objects. This means a property of one object is itself another object.</p>
+
+
+
+
+<h1>Intersection</h1>
+<p>In TypeScript, intersection types allow you to combine multiple types into one.This combined type includes all the properties and methods of the types being merged.</p>
+
+
+
+<h1>Unknown</h1>
+<p>In TypeScript, `unknown` is like `any` because it can store values of any type. But unlike `any`, you have to check or confirm its type before using it. This makes sure that your code remains type-safe when handling values whose types aren't known until runtime.</p>
+
+
+
+<h1>Any</h1>
+<p>The any type in TypeScript allows you to assign any kind of value to a variable or expression, bypassing TypeScript's type checking.</p>
+
+
+
+
+<h1>explict casting</h1>
+<p>
+    Explicit type casting in TypeScript, also known as type assertion, is a way to tell TypeScript that you know more about the type of a value than TypeScript does initially. It allows you to treat a value as a different type.
+</p>
+
+
+
+
+
+<h1>Const enum</h1>
+<p>A `const enum` in TypeScript allows you to use enums more efficiently by inlining their values at compile-time. This reduces the size of the generated JavaScript code, making it especially useful for performance-sensitive applications or when you need to keep your code small.</p>
+
+
+
+
+<h1>Enum</h1>
+<p>Enum: A way to define a set of named constants. <br>
+    Underlying Values: Enums can have associated numeric or string values. <br>
+    Casting: Converting between enum values and their underlying values</p>
+
+
+
+
+
+<h1>Array</h1>
+<p>Arrays in TypeScript are lists of items where each item can be accessed by its index.</p>
+
+<h2>There are multiple ways to define arrays</h2>
+<p>let numbers: number[] = [1, 2, 3, 4, 5]; <br>
+    let mixed: (number | string)[] = [1, "two", 3, "four"]; <br>
+    let numbers: Array<number> = [1, 2, 3, 4, 5]; <br>
+        let numbers: number[] = new Array(1, 2, 3, 4, 5); <br>
+        let numbers: Array<number> = []; <br>
+            numbers.push(1, 2, 3);
+</p>
+
+
+
+
+
+<h1>Functions</h1>
+<p>Functions in TypeScript are blocks of reusable code that perform a specific task when called.</p>
+
+
+
+<h1>Rest parameter</h1>
+<p>The rest parameter in TypeScript allows a function to accept an indefinite number of arguments as an array.</p>
+
+
+
+
+<h1>ConCurrency</h1>
+<p>Concurrency in TypeScript (or any programming language) refers to the ability to perform multiple operations at the same time, rather than waiting for one to complete before starting the next. This is particularly useful when dealing with tasks that can take some time, like fetching data from a server or reading files.</p>
+
+
+
+
+<h1>Promises</h1>
+<p>A Promise in TypeScript is an object that represents a task that will be completed in the future. It can either succeed or fail. When the task succeeds, the Promise is "resolved" with a result. When it fails, the Promise is "rejected" with an error.
+</p>
+
+
+
+
+<h1>Callback function</h1>
+<p>
+    A callback function in TypeScript is a function that you pass as an argument to another function, and it gets called (or "called back") after the first function completes its task.
+</p>
+
+
+
+
+
+<h1>
+    Asynchronous
+</h1>
+<p>Asynchronous programming in TypeScript is a way to write code that doesn't block or wait for tasks to complete. Instead, tasks run in the background, and the code moves on to the next task
+    This is particularly useful when dealing with tasks that can take some time, like fetching data from a server or reading files.
+</p>
+
+
+
+<h1>revision</h1>
+<p>Variable - A place to store a value.<br>
+    Function - A block of code that does something.<br>
+    Type - A kind of value (like number, string, or boolean).<br>
+    Interface - A way to describe an object's shape.<br>
+    Array - A list of items.<br>
+    Class - A blueprint for creating objects.<br>
+    Object - A collection of key-value pairs.<br>
+    String - Text.<br>
+    Number - A numeric value.<br>
+    Boolean - True or false.<br>
+    Enum - A special type that allows a variable to be one of a set of predefined values.<br>
+    Tuple - An array with a fixed number of elements, where each element can have a different type.<br>
+    Union - A type that can be one of several types.<br>
+    Any - A type that can be any value.<br>
+    Void - No value or return type.<br>
+    Null - A value that means nothing.<br>
+    Undefined - A value that means not set.<br>
+    Readonly - A variable that cannot be changed.<br>
+    Constructor - A special function for creating and initializing an object.<br>
+    Export - Make something available to use in other files.<br>
+    Import - Bring in something from another file.<br>
+    Namespace - A way to organize code.<br>
+    Type Assertion - Telling the compiler what type a value is.<br>
+    Generics - A way to create reusable code with types<br>
+    </p>
+
+    <h1>Write clean and maintainable code</h1>
+    <p>Certainly! Here are concise points for writing clean and maintainable TypeScript code:
+
+        1. Use descriptive names. <br>
+        2. Follow consistent coding conventions. <br>
+        3. Minimize the use of `any`.<br>
+        4. Leverage TypeScript's type system effectively.<br>
+        5. Define clear interfaces and types.<br>
+        6. Embrace functional programming principles.<br>
+        7. Modularize code with single responsibility.<br>
+        8. Implement robust error handling.<br>
+        9. Write clear documentation and comments.<br>
+        10. Write unit tests for critical code.<br>
+        11. Continuously refactor for improvement.<br>
+        12. Utilize version control and code reviews.</p>
+
+
+
+
+
+    <h1>Generics</h1>
+    <p>Generics in TypeScript let you write flexible, reusable code that works with any data type while still checking types for safety.</p>
+
+
+<h1 style="background-color: red;">Tasks</h1>
+<p>learn reading
+    <br>
+    stale obj fresh obj <br>
+    revice sheet <br>
+    class topic <br>
+    concurrency,Asynchronous,await,promise,try,catch,callback <br>
+    module <br>
+    structural typoing,function overloading
+</p>
+
+
+
+
+
+
+<h1>Function Over Loading</h1>
+<p>Function overloading in TypeScript lets you define multiple ways to call a function with different parameters, but you only write the function's code once.</p>
+
+
+
+
+
+
+
+<h1>Modules</h1>
+<p>Modules in TypeScript are files that let you split and reuse code by exporting and importing it between files.</p>
+
+
+</body>
+</html>
